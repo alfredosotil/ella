@@ -21,9 +21,9 @@ class AppAsset extends AssetBundle
         'css/site.css',
         'css/style.css',
         'css/skin/default.css',
-        'css/component.css',
+//        'css/component.css',
 //        'css/normalize.css',
-        'css/demo.css',
+//        'css/demo.css',
     ];
     public $js = [
         'js/modernizr.custom.min.js',
