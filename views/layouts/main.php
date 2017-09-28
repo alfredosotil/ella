@@ -18,7 +18,7 @@ AppAsset::register($this);
         <meta charset="<?= Yii::$app->charset ?>">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="shortcut icon" href="<?= Yii::$app->request->baseUrl; ?>/img/favicon.ico">
         <!--<link rel="stylesheet" type="text/css" href="<?= Yii::$app->request->baseUrl; ?>/fonts/font-awesome-4.3.0/css/font-awesome.min.css" />-->
         <?= Html::csrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
