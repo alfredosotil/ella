@@ -45,13 +45,13 @@ AppAsset::register($this);
                                     <span><a href="<?= Url::toRoute("/index") ?>">Inicio</a></span>
                                 </li>
                                 <li>
-                                    <span><a href="<?= Url::toRoute("/products") ?>">Productos</a></span>
+                                    <span><a href="<?= Url::toRoute("/products") ?>">Producto</a></span>
                                 </li>
                                 <li>
                                     <span><a href="<?= Url::toRoute("/services") ?>">Servicios</a></span>
                                     <ul class="sub-menu">
-                                        <li><a href="<?= Url::toRoute(["/services", "#" => "one"]) ?>">Limpieza Facial</a></li>
-                                        <li><a href="<?= Url::toRoute(["/services", "#" => "two"]) ?>">Tratamientos de Acn&eacute;</a></li>
+                                        <li><a href="<?= Url::toRoute(["/services", "#" => "cosmetics"]) ?>">Cosm&eacute;tico Facial</a></li>
+                                        <li><a href="<?= Url::toRoute(["/services", "#" => "body-treatments"]) ?>">Tratamientos de Cuerpo</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -182,7 +182,7 @@ AppAsset::register($this);
                                 <div class="bottom-text various-content">
 
                                     <h3>Acerca de Ella</h3>
-                                    <p><strong>ELLA</strong> is an ideal template for <strong>beauty salon, hairdressers, wellness or spa</strong>. Clean code and top-notch web design techniques are wrapped with <strong>several gorgeous color schemes</strong> to choose from.</p><p>You can buy this responsive HTML5/CSS3 template.</p>
+                                    <p><strong>ELLA</strong> is an ideal template for <strong>beauty salon, hairdressers, wellness or spa</strong>. Clean code and top-notch web design techniques are wrapped with <strong>several gorgeous color schemes</strong> to choose from.</p>
 
                                 </div>
                                 <!-- BOTTOM TEXT : end -->

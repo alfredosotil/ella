@@ -1,5 +1,6 @@
 <?php
 /* @var $this yii\web\View */
+use yii\helpers\Url;
 
 $this->title = 'Inicio';
 ?>
@@ -15,7 +16,7 @@ $this->title = 'Inicio';
                         <div class="slide-content various-content textalign-left valign-middle">
 
                             <h1>Bienvenida<br>a ELLA!</h1>
-                            <h3>ELLA es un Beauty Salon,<br> Wellness o Spa</h3>
+                            <h3>ELLA es un producto milagroso,<br> te rejuvenecera la piel</h3>
 
                         </div>
                     </div>
@@ -25,14 +26,14 @@ $this->title = 'Inicio';
         <!-- SLIDE 1 : end -->
 
         <!-- SLIDE 2 : begin -->
-        <div class="slide slide-2" data-label="20% desc. en Masajes" style="background-image: url( '<?= Yii::$app->request->baseUrl; ?>/img/slide_02.jpg' );">
+        <div class="slide slide-2" data-label="20% desc. en productos" style="background-image: url( '<?= Yii::$app->request->baseUrl; ?>/img/slide_02.jpg' );">
             <div class="slide-bg">
                 <div class="container">
                     <div class="slide-inner">
                         <div class="slide-content various-content textalign-right valign-middle">
 
-                            <h2>20% descuento<br>Masajes</h2>
-                            <h3>Este viernes unicamente!<br><a href="ajax/reservation-form.html" class="m-open-ajax-modal">Has una Reservaci&oacute;n</a></h3>
+                            <h2>20% descuento<br>en productos</h2>
+                            <h3>Este viernes unicamente!<br><a href="ajax/reservation-form.html" class="m-open-ajax-modal">Has una Reservaci&oacute;n de grupo</a></h3>
 
                         </div>
                     </div>
@@ -49,7 +50,7 @@ $this->title = 'Inicio';
                         <div class="slide-content various-content textalign-left valign-middle">
 
                             <h2>E - shop<br>Lanzada</h2>
-                            <h3><a href="shop.html">Ech&aacute; un vistazo</a> a nuestros Cat&aacute;logo</h3>
+                            <h3><a href="shop.html">Ech&aacute; un vistazo</a> a nuestro producto</h3>
 
                         </div>
                     </div>
@@ -78,7 +79,7 @@ $this->title = 'Inicio';
                 <header>
                     <div class="container">
                         <h2>Nuestros Servicios</h2>
-                        <p class="subtitle">Ofrecemos servicios variados de belleza</p>
+                        <p class="subtitle">Ofrecemos servicios de belleza para la piel</p>
                         <p class="more"><a href="services.html" class="c-button m-type-2">Ver todos</a></p>
                     </div>
                 </header>
@@ -93,71 +94,26 @@ $this->title = 'Inicio';
                                 <!-- SERVICE : begin -->
                                 <div class="c-service">
                                     <div class="service-image">
-                                        <a href="services.html#cosmetics"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_01.jpg" alt=""></a>
+                                        <a href="<?= Url::toRoute(["/services", "#" => "cosmetics"]) ?>"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_01.jpg" alt=""></a>
                                     </div>
-                                    <h3 class="service-title"><a href="services.html#cosmetics">Cosm&eacute;ticos</a></h3>
+                                    <h3 class="service-title"><a href="<?= Url::toRoute(["/services", "#" => "cosmetics"]) ?>">Cosm&eacute;tico Facial</a></h3>
                                     <div class="service-description">
                                         <p>Faciales, Exfoliaciones, Tratamientos de Acn&eacute;, Anti-envejecimiento</p>
                                     </div>
                                 </div>
                                 <!-- SERVICE : end -->
 
-                            </div>
+                            </div>                            
                             <div class="service-list-item">
 
                                 <!-- SERVICE : begin -->
                                 <div class="c-service">
                                     <div class="service-image">
-                                        <a href="services.html#hairdressing"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_02.jpg" alt=""></a>
+                                        <a href="<?= Url::toRoute(["/services", "#" => "body-treatments"]) ?>"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_03.jpg" alt=""></a>
                                     </div>
-                                    <h3 class="service-title"><a href="services.html#hairdressing">Pelo Saludable</a></h3>
+                                    <h3 class="service-title"><a href="<?= Url::toRoute(["/services", "#" => "body-treatments"]) ?>">Tratamientos de Cuerpo</a></h3>
                                     <div class="service-description">
-                                        <p>Lavado cl&aacute;sico, Lavado natural, Secado</p>
-                                    </div>
-                                </div>
-                                <!-- SERVICE : end -->
-
-                            </div>
-                            <div class="service-list-item">
-
-                                <!-- SERVICE : begin -->
-                                <div class="c-service">
-                                    <div class="service-image">
-                                        <a href="services.html#body-treatments"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_03.jpg" alt=""></a>
-                                    </div>
-                                    <h3 class="service-title"><a href="services.html#body-treatments">Tratamientos de Cuerpo</a></h3>
-                                    <div class="service-description">
-                                        <p>Envolturas Corporales, Tratamiento de exfoliaciones corporales, Tratamiento de Celulitis</p>
-                                    </div>
-                                </div>
-                                <!-- SERVICE : end -->
-
-                            </div>
-                            <div class="service-list-item">
-
-                                <!-- SERVICE : begin -->
-                                <div class="c-service">
-                                    <div class="service-image">
-                                        <a href="services.html#massages"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_04.jpg" alt=""></a>
-                                    </div>
-                                    <h3 class="service-title"><a href="services.html#massages">Masajes</a></h3>
-                                    <div class="service-description">
-                                        <p>Masajes en la cabeza y manos, Aromateerapia Masaje</p>
-                                    </div>
-                                </div>
-                                <!-- SERVICE : end -->
-
-                            </div>
-                            <div class="service-list-item">
-
-                                <!-- SERVICE : begin -->
-                                <div class="c-service">
-                                    <div class="service-image">
-                                        <a href="services.html"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_05.jpg" alt=""></a>
-                                    </div>
-                                    <h3 class="service-title"><a href="services.html">Manicure Pedicure</a></h3>
-                                    <div class="service-description">
-                                        <p>Limpieza, Pintado, Arte, Acr&iacute;licos</p>
+                                        <p>Tratamiento de exfoliaciones corporales, Tratamiento de Celulitis</p>
                                     </div>
                                 </div>
                                 <!-- SERVICE : end -->
@@ -279,7 +235,7 @@ $this->title = 'Inicio';
                 <header>
                     <div class="container">
                         <h2>Nuestras Marcas Favoritas</h2>
-                        <p class="subtitle">Solo usamos productos de Calidad</p>
+                        <p class="subtitle">Solo usamos productos Naturales y de Calidad</p>
                     </div>
                 </header>
                 <!-- SECTION HEADER : end -->

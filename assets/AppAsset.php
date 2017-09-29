@@ -18,16 +18,15 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
         'css/style.css',
-        'css/skin/default.css',
-//        'css/component.css',
-//        'css/normalize.css',
-//        'css/demo.css',
+//        'css/skin/default.css',
+        'css/skin/sunrise.css',
+//        'css/skin/red-sunset.css',
+        'css/custom.css',
     ];
     public $js = [
         'js/modernizr.custom.min.js',
-//        'js/jquery-1.9.1.min.js',
+        'js/jquery-1.9.1.min.js',
         'js/jquery-ui-1.10.4.custom.min.js',
         'js/jquery.ba-outside-events.min.js',
         'js/owl.carousel.min.js',
@@ -39,8 +38,8 @@ class AppAsset extends AssetBundle
         'js/main.js',
         'js/scripts.js',
     ];
-    public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
-    ];
+//    public $depends = [
+//        'yii\web\YiiAsset',
+//        'yii\bootstrap\BootstrapAsset',
+//    ];
 }

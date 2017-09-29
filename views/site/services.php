@@ -4,12 +4,7 @@
     <!-- PAGE HEADER : begin -->
     <div id="page-header">
         <div class="container">
-            <h1>Services</h1>
-            <ul class="breadcrumbs">
-                <li><a href="index-2.html">Home</a></li>
-                <li><a href="about-us.html">Salon</a></li>
-                <li>Services</li>
-            </ul>
+            <h1>Servicios</h1>
         </div>
     </div>
     <!-- PAGE HEADER : begin -->
@@ -23,13 +18,13 @@
                 <!-- CATEGORY SECTION : begin -->
                 <section id="cosmetics">
 
-                    <h2>Cosmetics</h2>
+                    <h2>Cosmetico Facial</h2>
 
                     <div class="row">
                         <div class="col-sm-2">
 
                             <!-- CATEGORY IMAGE : begin -->
-                            <p class="textalign-center margin-sides-auto max-width-180"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_01.jpg" class="rounded" alt="Cosmetics"></p>
+                            <p class="textalign-center margin-sides-auto max-width-180"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_01.jpg" class="rounded" alt="Cosmetico Facial"></p>
                             <!-- CATEGORY IMAGE : end -->
 
                         </div>
@@ -89,77 +84,16 @@
                 </section>
                 <!-- CATEGORY SECTION : end -->
 
-                <!-- CATEGORY SECTION : begin -->
-                <section id="hairdressing">
-
-                    <h2>Hairdressing</h2>
-
-                    <div class="row">
-                        <div class="col-sm-2">
-
-                            <!-- CATEGORY IMAGE : begin -->
-                            <p class="textalign-center margin-sides-auto max-width-180"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_02.jpg" class="rounded" alt="Hairdressing"></p>
-                            <!-- CATEGORY IMAGE : end -->
-
-                        </div>
-                        <div class="col-sm-10">
-
-                            <!-- SERVICES : begin -->
-                            <ul class="c-accordion">
-                                <li>
-                                    <h3 class="accordion-title">Wash</h3>
-                                    <p class="accordion-price">$10.50</p>
-                                    <div class="accordion-content">
-                                        <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h3 class="accordion-title">Cut & Finish</h3>
-                                    <p class="accordion-price">$19.99</p>
-                                    <div class="accordion-content">
-                                        <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h3 class="accordion-title">Blow Dries</h3>
-                                    <p class="accordion-price">$14.99</p>
-                                    <div class="accordion-content">
-                                        <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h3 class="accordion-title">Hair Colouring & Highlights</h3>
-                                    <p class="accordion-price">$14.99</p>
-                                    <div class="accordion-content">
-                                        <p>Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h3 class="accordion-title">Evening Hairdressing</h3>
-                                    <p class="accordion-price">$14.99</p>
-                                    <div class="accordion-content">
-                                        <p>Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <!-- SERVICES : end -->
-
-                        </div>
-                    </div>
-
-                </section>
-                <!-- CATEGORY SECTION : end -->
-
-                <!-- CATEGORY SECTION : begin -->
+               <!-- CATEGORY SECTION : begin -->
                 <section id="body-treatments">
 
-                    <h2>Body Treatments</h2>
+                    <h2>Tratamientos de Cuerpo</h2>
 
                     <div class="row">
                         <div class="col-sm-2">
 
                             <!-- CATEGORY IMAGE : begin -->
-                            <p class="textalign-center margin-sides-auto max-width-180"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_03.jpg" class="rounded" alt="Body Treatments"></p>
+                            <p class="textalign-center margin-sides-auto max-width-180"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_03.jpg" class="rounded" alt="Tratamientos de Cuerpo"></p>
                             <!-- CATEGORY IMAGE : end -->
 
                         </div>
@@ -210,68 +144,7 @@
 
                 </section>
                 <!-- CATEGORY SECTION : end -->
-
-                <!-- CATEGORY SECTION : begin -->
-                <section id="massages">
-
-                    <h2>Massages</h2>
-
-                    <div class="row">
-                        <div class="col-sm-2">
-
-                            <!-- CATEGORY IMAGE : begin -->
-                            <p class="textalign-center margin-sides-auto max-width-180"><img src="<?= Yii::$app->request->baseUrl; ?>/img/service_04.jpg" class="rounded" alt="Massages"></p>
-                            <!-- CATEGORY IMAGE : end -->
-
-                        </div>
-                        <div class="col-sm-10">
-
-                            <!-- SERVICES : begin -->
-                            <ul class="c-accordion">
-                                <li>
-                                    <h3 class="accordion-title">Aromatherapy Massage</h3>
-                                    <p class="accordion-price">$10.50</p>
-                                    <div class="accordion-content">
-                                        <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h3 class="accordion-title">Exotic Massages</h3>
-                                    <p class="accordion-price">$19.99</p>
-                                    <div class="accordion-content">
-                                        <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h3 class="accordion-title">Swedish Massage</h3>
-                                    <p class="accordion-price">$14.99</p>
-                                    <div class="accordion-content">
-                                        <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h3 class="accordion-title">Hot Stone Massage</h3>
-                                    <p class="accordion-price">$14.99</p>
-                                    <div class="accordion-content">
-                                        <p>Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h3 class="accordion-title">Sports Massage </h3>
-                                    <p class="accordion-price">$14.99</p>
-                                    <div class="accordion-content">
-                                        <p>Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <!-- SERVICES : end -->
-
-                        </div>
-                    </div>
-
-                </section>
-                <!-- CATEGORY SECTION : end -->
-
+                
                 <!-- CTA MESSAGE SECTION : begin -->
                 <section>
 
@@ -279,12 +152,12 @@
                     <div class="c-cta-message">
                         <div class="row">
                             <div class="col-md-8">
-                                <h2>Did you find a service for you?</h2>
+                                <h2>Encontraste un servicio para ti?</h2>
                                 <p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
                             </div>
                             <div class="col-md-4">
                                 <p class="textalign-right">
-                                    <a href="ajax/reservation-form.html" class="c-button m-open-ajax-modal">Make a Reservation</a>
+                                    <a href="ajax/reservation-form.html" class="c-button m-open-ajax-modal">Has una Reservacion</a>
                                 </p>
                             </div>
                         </div>
