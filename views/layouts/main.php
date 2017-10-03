@@ -13,19 +13,19 @@ AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>">
+<html lang="<?= Yii::$app->language ?>" data-ng-app="ella-app">
     <head>
         <meta charset="<?= Yii::$app->charset ?>">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="<?= Yii::$app->request->baseUrl; ?>/img/favicon.ico">
-        <!--<link rel="stylesheet" type="text/css" href="<?= Yii::$app->request->baseUrl; ?>/fonts/font-awesome-4.3.0/css/font-awesome.min.css" />-->
+        <link rel="shortcut icon" href="<?= Yii::$app->request->baseUrl; ?>/img/favicon.ico">        
+             <!--<link rel="stylesheet" type="text/css" href="<?= Yii::$app->request->baseUrl; ?>/fonts/font-awesome-4.3.0/css/font-awesome.min.css" />-->
         <?= Html::csrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
-<?php $this->head() ?>
+        <?php $this->head() ?>
     </head>
-    <body>
-<?php $this->beginBody() ?>
+    <body data-ng-controller="MainController">
+        <?php $this->beginBody() ?>
         <!-- HEADER : begin -->
         <header id="header" class="m-animated">
             <div class="header-bg">
@@ -170,7 +170,8 @@ AppAsset::register($this);
         <!-- HEADER : end -->
         <!-- WRAPPER : begin -->
         <div id="wrapper">
-<?= $content ?>
+            <p ng-cloak>{{test}}</p>            
+            <?= $content ?>
             <!-- BOTTOM PANEL : begin -->
             <div id="bottom-panel">
                 <div class="bottom-panel-inner">
@@ -258,7 +259,7 @@ AppAsset::register($this);
             <!-- FOOTER : end -->
         </div>
 
-<?php $this->endBody() ?>
+        <?php $this->endBody() ?>
     </body>
 </html>
 <?php $this->endPage() ?>
