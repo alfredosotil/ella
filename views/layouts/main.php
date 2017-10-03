@@ -170,7 +170,6 @@ AppAsset::register($this);
         <!-- HEADER : end -->
         <!-- WRAPPER : begin -->
         <div id="wrapper">
-            <p ng-cloak>{{test}}</p>            
             <?= $content ?>
             <!-- BOTTOM PANEL : begin -->
             <div id="bottom-panel">
